@@ -1,0 +1,17 @@
+1. Solicitar al usuario que ingrese un número entero N, luego generar en forma aleatoria N números enteros comprendidos entre 1 y 100 y determinar cuántos son pares y cuántos impares.
+
+Algoritmo Pares_Impares
+	Escribir "Ingrese un número entero:"
+	Leer N
+	Si N <> numDecimal Entonces
+		pir <- (N*100)
+		Escribir "Los números aleatorios son:", pir
+		Si pir mod 2 = 0 Entonces
+			Escribir "Es un número par", pir
+		SiNo
+			Escribir "Es un número impar", pir
+		FinSi
+	SiNo
+		Escribir "El número es incorrecto"
+	FinSi
+FinAlgoritmo
