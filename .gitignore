@@ -1,0 +1,3 @@
+*.class
+
+//no le damos seguimiento a los archivos .class de java
